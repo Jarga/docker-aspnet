@@ -1,4 +1,4 @@
-FROM mono-4.1.0
+FROM jarga/mono-4.1.0
 
 ENV DNX_FEED https://www.myget.org/F/aspnetvnext/api/v2
 ENV DNX_USER_HOME /opt/dnx
